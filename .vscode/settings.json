@@ -1,0 +1,8 @@
+{
+  "search.exclude": {
+    "**/code-samples": true
+  },
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/KyleMit/create-eleventy-blog/master/.eleventyblog.schema.json": ".eleventyblog.yml"
+  }
+}

@@ -1,0 +1,12 @@
+title: My Blog
+description: Low Code Eleventy Blog Builder
+
+themeColor: "#534534"
+accentColor: "#f4177f"
+
+repo: https://github.com/KyleMit/create-eleventy-blog-demo
+url: https://create-eleventy-blog-demo.netlify.app/
+baseUrl: ""
+
+exclude: ["*.*"]
+include: ["*.md", "*.liquid"]
