@@ -7,4 +7,4 @@ description: First Sample Post
 
 Something interesting
 
-![ginger](../assets/posts/hello-world.md/ginger.jpg)
+![ginger](/assets/posts/hello-world.md/ginger.jpg)
