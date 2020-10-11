@@ -4,9 +4,34 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Build Blog",
+            "name": "CLI - Default",
             "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli.js",
-            "args": [],
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CLI - Build",
+            "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli.js",
+            "args": ["build", "-pc"],
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CLI - Sub Command",
+            "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli.js",
+            "args": ["lint"],
             "runtimeArgs": [
                 "--preserve-symlinks"
             ],

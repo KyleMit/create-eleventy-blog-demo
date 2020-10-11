@@ -1,6 +1,7 @@
 ---
 title: Hello World
 description: First Sample Post
+tags: [meta, intro]
 ---
 
 # Hello World
