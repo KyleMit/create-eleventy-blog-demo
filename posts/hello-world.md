@@ -1,11 +1,10 @@
 ---
 title: Hello World
 description: First Sample Post
-tags: [meta, intro]
+tags: [post, meta, intro]
 ---
 
-# Hello World
 
 Something interesting
 
-![ginger](/assets/posts/hello-world.md/ginger.jpg)
+![ginger](/assets/posts/hello-world/ginger.jpg)
