@@ -1,7 +1,7 @@
 title: My Blog
 description: Low Code Eleventy Blog Builder
 
-themeColor: "#534534"
+themeColor: "#562bbd"
 accentColor: "#f4177f"
 
 repo: https://github.com/KyleMit/create-eleventy-blog-demo
