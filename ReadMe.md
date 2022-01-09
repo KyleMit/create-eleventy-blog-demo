@@ -8,7 +8,8 @@
 ## Commands
 
 ```bash
-npx create-eleventy-blog                                       # build
-npx create-eleventy-blog --serve # && npx http-server ./_site -o # serve
+npm install -g create-eleventy-blog # install
+npx create-eleventy-blog            # build
+npx create-eleventy-blog serve      # serve
 ```
 

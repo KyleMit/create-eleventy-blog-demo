@@ -1,43 +1,14 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "CLI - Default",
-            "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli.js",
-            "runtimeArgs": [
-                "--preserve-symlinks"
-            ],
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "CLI - Build",
-            "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli.js",
-            "args": ["build", "-pc"],
-            "runtimeArgs": [
-                "--preserve-symlinks"
-            ],
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "CLI - Sub Command",
-            "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli.js",
-            "args": ["lint"],
-            "runtimeArgs": [
-                "--preserve-symlinks"
-            ],
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "CLI - Sub Command",
+      "program": "${workspaceFolder}/node_modules/create-eleventy-blog/cli/_cli.js",
+      "args": [],
+      "runtimeArgs": ["--preserve-symlinks"],
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
 }
